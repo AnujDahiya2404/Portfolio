@@ -10,7 +10,7 @@ h1 {
     padding-bottom: 15px;
     font-family: 'Montez', cursive;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 h3 {
@@ -51,14 +51,18 @@ p {
 .BigBox {
     padding: 5% 10%;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
+}
+
+.BigBox:hover {
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* CONTAINERS */
 
 .container-fluid {
-    padding: 3% 7%;
+    padding: 0% 7% 3% 7%;
 }
 
 /* NAVBARS */
@@ -75,7 +79,7 @@ p {
 }
 
 .navbar-brand img {
-    padding: 10px 45px;
+    padding: 10px 15px;
     height: 100px;
 }
 
@@ -142,6 +146,11 @@ p {
         font-size: 1rem;
         text-align: justify;
     }
+
+    #footer p,
+    #contact-me p {
+        text-align: center;
+    }
 }
 
 /* EDUCATION  */
@@ -155,6 +164,34 @@ p {
     margin: 20px auto;
 }
 
+#education .card:hover {
+    background-color: rgba(255, 255, 255, 0.258);
+}
+
 .subject {
     text-align: left;
+}
+
+/* SKILLS */
+
+.skill-img {
+    width: 80%;
+    max-height: 80%;
+}
+
+/* CONTACT ME  */
+#contact-me a i {
+    font-size: 3rem;
+    padding: 10px 30px;
+    color: black;
+}
+
+/* FOOTER  */
+#footer {
+    text-align: center;
+    padding: 10px 30px 30px;
+}
+
+#footer .container-fluid {
+    padding: 0;
 }
