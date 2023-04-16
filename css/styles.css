@@ -56,6 +56,8 @@ p {
 }
 
 .BigBox:hover {
+    transform: scale(1.004);
+    transition: all 0.2s ease-in-out;
     background-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -96,6 +98,11 @@ p {
     .navbar-toggler {
         margin: auto;
     }
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
 }
 
 /* HOME PAGE  */
@@ -165,6 +172,8 @@ p {
 }
 
 #education .card:hover {
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
     background-color: rgba(255, 255, 255, 0.258);
 }
 
@@ -179,11 +188,22 @@ p {
     max-height: 80%;
 }
 
+.skill-img:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
 /* CONTACT ME  */
 #contact-me a i {
     font-size: 3rem;
     padding: 10px 30px;
-    color: black;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+#contact-me a i:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out 0.1s;
+    color: rgba(0, 0, 0);
 }
 
 /* FOOTER  */
