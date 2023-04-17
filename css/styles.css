@@ -90,6 +90,10 @@ p {
     margin: 0 45px;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 @media (max-width: 360px) {
     .navbar-brand {
         margin: auto;
